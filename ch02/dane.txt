@@ -1,0 +1,3 @@
+Jan Kowalski,programista,8000
+Barbara Nowak,boss,9000
+Noob Noobowski,junior next clicker,1000
