@@ -1,0 +1,4 @@
+dsfad:0
+zupa:2
+foobar:4
+naleśniki:1
