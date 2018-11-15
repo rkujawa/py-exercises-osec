@@ -15,7 +15,7 @@ class Employee:
     def __init__(self):
         self.name = ""
         self.surname = ""
-        self.salary = 0
+        self.salary = 2000
     def name_set(self, name):
         """Set the (first) name of an employee."""
         self.name = name
