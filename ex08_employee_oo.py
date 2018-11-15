@@ -3,7 +3,7 @@
 - Write a class representing an employee.
 - Every employee should have: name, surname and salary.
 
-e1 = Employee()
+e1 = Employee(...)
 e1.name_set("Jan")
 e1.surname_set("Kowalski")
 e1.salary_set(5000)
@@ -12,10 +12,10 @@ also something that will allow representing object as string
 
 class Employee:
     """This is a class representing a single employee."""
-    def __init__(self):
-        self.name = ""
-        self.surname = ""
-        self.salary = 2000
+    def __init__(self, name, surname, salary):
+        self.name_set(name)
+        self.surname_set(surname)
+        self.salary_set(salary)
     def name_set(self, name):
         """Set the (first) name of an employee."""
         self.name = name
@@ -33,9 +33,6 @@ class Employee:
         """Return string representation of an employee (name and salary)."""
         return self.name + " " + self.surname + " zarabia " + str(self.salary)
 
-e1 = Employee()
-e1.name_set("Arkadiusz")
-e1.surname_set("Testowski")
-e1.salary_set(10000)
+e1 = Employee("Arkadiusz", "Testowski", 10000)
 print(e1)
 
